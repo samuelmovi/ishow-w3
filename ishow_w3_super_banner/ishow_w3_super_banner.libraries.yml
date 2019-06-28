@@ -1,0 +1,7 @@
+super-banner-styling:
+  version: 1.x
+  css:
+    theme:
+      css/ishow-w3-super-banner.css: {}
+  js:
+    js/ishow-w3-super-banner.js: {}

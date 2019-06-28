@@ -1,0 +1,17 @@
+/******** iShow W3 Super Banner ********/
+/* restrict the logos's size*/
+
+#banner-logo {
+  height: auto;
+  width: 25%;
+}
+
+/* stretch out images in the carousel */
+
+.stretch {
+   min-width:100%;
+   min-height:100%;
+   width:auto;
+   height:auto;
+ }
+

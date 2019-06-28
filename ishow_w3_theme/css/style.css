@@ -1,0 +1,35 @@
+/*
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+ */
+#page{
+  background-color: #f2f2f2;
+  }
+ 
+/* Page content */
+.content {
+ padding: 16px;
+}
+
+/******** iShow Contact Bar ********/
+.contact-bar .contact-burger {
+  display: none;
+}
+
+/****** iShow NavBar ******/
+
+.navbar .navbar-burger {
+  display: none;
+}
+
+
+ 
+/*********** RESPONSIVE STUFF **************/
+
+

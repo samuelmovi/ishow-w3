@@ -1,0 +1,7 @@
+contact-bar-styling:
+  version: 1.x
+  css:
+    theme:
+      css/ishow-w3-contact-bar.css: {}
+  js:
+    js/ishow-w3-contact-bar.js: {}

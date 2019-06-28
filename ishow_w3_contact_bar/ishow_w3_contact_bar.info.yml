@@ -1,0 +1,11 @@
+name: iShow-W3 Contact Bar Block Module
+type: module
+description: 'Contact Bar with home, telephone and social media shortcuts, powered by W3.CSS'
+package: iShow-W3 Modules
+libraries:
+  - iShow_W3_Contact_Bar/contact-bar-styling
+version: 1.0
+core: 8.x
+
+dependencies:
+  - drupal:block

@@ -1,0 +1,9 @@
+name: iShow-W3 Text
+type: module
+description: 'A text bubble block module, powered by W3.CSS'
+package: iShow-W3 Modules
+version: 1.0
+core: 8.x
+
+dependencies:
+  - drupal:block

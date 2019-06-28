@@ -1,0 +1,12 @@
+name: iShow-W3 Theme
+description : Simple one-column theme, powered by W3.CS
+type: theme
+core: 8.x
+libraries:
+  - ishow_w3_theme/global-styling
+regions:
+  contact_bar: 'Contact Bar'
+  banner: 'Banner'
+  navbar: 'Navigation Bar'
+  content: 'Content'
+  footer: 'Footer'

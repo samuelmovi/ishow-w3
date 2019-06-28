@@ -1,0 +1,11 @@
+name: iShow-W3 Super Banner Block Module
+type: module
+description: 'Displays banner containing a custom photo-carousel with the logo overlaid on top, powered by W3.CSS'
+package: iShow-W3 Modules
+libraries:
+  - iShow_W3_Super_Banner/super-banner-styling
+version: 1.0
+core: 8.x
+
+dependencies:
+  - drupal:block

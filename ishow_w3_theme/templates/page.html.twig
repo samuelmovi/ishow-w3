@@ -1,0 +1,39 @@
+
+<div id="page" class="w3-block w3-mobile">
+
+  <!-- CONTACT BAR -->
+  <div id="contact-bar" class="contact-bar" >
+    {% if page.contact_bar %}
+      {{ page.contact_bar }}
+    {% endif %}
+  </div>
+
+  <!-- BANNER -->
+  <div id="banner" class="w3-bar w3-white" >
+    {% if page.banner %}
+      {{ page.banner }}
+    {% endif %}
+  </div>
+
+  <!-- NAVIGATION BAR -->
+  <div id="navbar" class="w3-red navbar">
+    {% if page.navbar %}
+      {{ page.navbar }}
+    {% endif %}
+  </div>
+
+  <!-- CONTENT -->
+  <div id="content" class="w3-container w3-white w3-center" style="padding:25px">
+    {% if page.content %}
+      {{ page.content }}
+    {% endif %}
+  </div>
+
+  <!-- FOOTER -->
+  <div id="footer" class=" w3-panel w3-cyan" >
+      {% if page.footer %}
+        {{ page.footer }}
+      {% endif %}
+  </div>
+
+  </div>
