@@ -35,13 +35,13 @@ class iShowW3SuperBanner extends BlockBase implements BlockPluginInterface{
     };
     $my_string = '   <div id="super-banner" class="w3-display-container">
       <div class="mySlides">
-        <img class="w3-image  w3-animate-left stretch" src="sites/default/files/images/carousel/'.$image_filename_array['image1'].'">
+        <img class="w3-image  w3-animate-left stretch" src="/sites/default/files/images/carousel/'.$image_filename_array['image1'].'">
       </div>
       <div class="mySlides">
-        <img class="w3-image  w3-animate-left stretch" src="sites/default/files/images/carousel/'.$image_filename_array['image2'].'">
+        <img class="w3-image  w3-animate-left stretch" src="/sites/default/files/images/carousel/'.$image_filename_array['image2'].'">
       </div>
       <div class="mySlides">
-        <img class="w3-image  w3-animate-left stretch" src="sites/default/files/images/carousel/'.$image_filename_array['image3'].'">
+        <img class="w3-image  w3-animate-left stretch" src="/sites/default/files/images/carousel/'.$image_filename_array['image3'].'">
       </div>
       <div id="banner-logo" class="w3-display-topleft">
         <a href="/" title="Home" rel="home" class="site-branding__logo">
