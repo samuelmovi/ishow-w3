@@ -33,7 +33,7 @@ class iShowW3ContactBar extends BlockBase implements BlockPluginInterface{
     if (!empty($config['telephone'])) {
       $telephone = $config['telephone'];
       $content = $content.'
-		<a href="https://wa.me/'.$telephone.'." class="w3-bar-item  w3-hover-cyan" target="_blank" title="Twitter"> <i class="fab fa-whatsapp"></i> </a>';
+		<a href="https://wa.me/'.$telephone.'." class="w3-bar-item  w3-hover-cyan" target="_blank" title="Twitter"> <i class="fa fa-whatsapp"></i> </a>';
     }
     else {
       $telephone = $this->t('XX-XXX-XXX-XXX');
@@ -41,26 +41,26 @@ class iShowW3ContactBar extends BlockBase implements BlockPluginInterface{
 
     if(!empty($config['twitter'])){
       $content = $content.'
-		<a href="'.$config['twitter'].'" class=" w3-bar-item  w3-hover-cyan" target="_blank" title="Twitter"> <i class="fab fa-twitter"></i> </a>';
+		<a href="'.$config['twitter'].'" class=" w3-bar-item  w3-hover-cyan" target="_blank" title="Twitter"> <i class="fa fa-twitter"></i> </a>';
     }
     if(!empty($config['facebook'])){
       $content = $content.'
-		<a href="'.$config['facebook'].'" class="w3-bar-item  w3-hover-cyan" target="_blank" title="Facebook"> <i class="fab fa-facebook-square"></i> </a>';
+		<a href="'.$config['facebook'].'" class="w3-bar-item  w3-hover-cyan" target="_blank" title="Facebook"> <i class="fa fa-facebook-square"></i> </a>';
     }
     if(!empty($config['instagram'])){
       $content = $content.'
-		<a href="'.$config['instagram'].'" class="w3-bar-item  w3-hover-cyan" target="_blank" title="Instagram"> <i class="fab fa-instagram"></i> </a>';
+		<a href="'.$config['instagram'].'" class="w3-bar-item  w3-hover-cyan" target="_blank" title="Instagram"> <i class="fa fa-instagram"></i> </a>';
     }
     if(!empty($config['linkedin'])){
       $content = $content.'
-		<a href="'.$config['linkedin'].'" class="w3-bar-item  w3-hover-cyan" target="_blank" title="LinkedIn"> <i class="fab fa-linkedin"></i> </a>';
+		<a href="'.$config['linkedin'].'" class="w3-bar-item  w3-hover-cyan" target="_blank" title="LinkedIn"> <i class="fa fa-linkedin"></i> </a>';
     }
     if(!empty($config['email'])){
       $content = $content.'
-		<a href="'.$config['email'].'" class="w3-bar-item  w3-hover-cyan" target="_blank" title="Email"> <i class="fas fa-envelope"></i> </a>';
+		<a href="'.$config['email'].'" class="w3-bar-item  w3-hover-cyan" target="_blank" title="Email"> <i class="fa fa-envelope"></i> </a>';
     }
     $content = $content.'
-		<a href="tel:+'.$telephone.'" class="w3-bar-item w3-hover-cyan"><i class="fas fa-phone-square"></i>+'.$telephone.'</a>
+		<a href="tel:+'.$telephone.'" class="w3-bar-item w3-hover-cyan"><i class="fa fa-phone-square"></i>+'.$telephone.'</a>
 		';
 
 	$content = $content.'
